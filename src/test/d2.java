@@ -38,7 +38,7 @@ public class d2 {
 	 
 	 
 	@Test
-     public  void test1(){
+     public  void DROPDOWN(){
 		
 		//for dropdown
 		    Select dropdown = new Select(driver.findElement(By.id("dropdowm-menu-1")));
@@ -47,7 +47,9 @@ public class d2 {
 	               dropdown2.selectByVisibleText("JUnit");
 	        Select dropdown3 = new Select(driver.findElement(By.id("dropdowm-menu-3")));
 	               dropdown3.selectByVisibleText("JQuery");
-
+	}
+	     @Test
+	  public  void checkbox(){
 	    //for Checkbox
 	       //checkbox1
 	            driver.findElement(By.cssSelector("input[value='option-1']")).click();
@@ -57,8 +59,9 @@ public class d2 {
 
 	        //checkbox4
 	            driver.findElement(By.cssSelector("input[value='option-4']")).click();
-	       
-
+	  }
+          @Test
+          public  void radiobutton(){
 	        // radion button 
 	            driver.findElement(By.cssSelector("input[value='purple']")).click();
 	        
