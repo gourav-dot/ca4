@@ -38,7 +38,7 @@ public class d2 {
 	 
 	 
 	@Test
-     public  void DROPDOWN(){
+     public  void dropdownMethod(){
 		
 		//for dropdown
 		    Select dropdown = new Select(driver.findElement(By.id("dropdowm-menu-1")));
@@ -49,7 +49,7 @@ public class d2 {
 	               dropdown3.selectByVisibleText("JQuery");
 	}
 	     @Test
-	  public  void checkbox(){
+	  public  void checkBoxMethod(){
 	    //for Checkbox
 	       //checkbox1
 	            driver.findElement(By.cssSelector("input[value='option-1']")).click();
@@ -61,7 +61,7 @@ public class d2 {
 	            driver.findElement(By.cssSelector("input[value='option-4']")).click();
 	  }
           @Test
-          public  void radiobutton(){
+          public  void RadioButtonMethod(){
 	        // radion button 
 	            driver.findElement(By.cssSelector("input[value='purple']")).click();
 	        
